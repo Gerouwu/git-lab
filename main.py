@@ -6,3 +6,6 @@ app = FastAPI( )
 def health():
     return {"status":  "ok"}
 
+@app.get("/author")
+def author():
+    return {"Author": "Juan"}
