@@ -17,3 +17,6 @@ def author():
 @app.get("/demo")
 def demo():
     return {"Demo": True}
+@app.get("/issuscribed")
+def issuscribed():
+    return {"Is Suscribed": False}
