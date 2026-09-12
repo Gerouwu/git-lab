@@ -13,3 +13,7 @@ def version():
 @app.get("/author")
 def author():
     return {"Author": "Geronimo"}
+
+@app.get("/demo")
+def demo():
+    return {"Demo": True}
