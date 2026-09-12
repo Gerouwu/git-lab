@@ -4,7 +4,7 @@ app = FastAPI( )
 
 @app.get("/health")
 def health():
-    return {"status":  "healthy"}
+    return {"status":  "ready"}
 
 @app.get("/version")
 def version():
